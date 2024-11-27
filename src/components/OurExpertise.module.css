@@ -1,0 +1,38 @@
+.ourExpertiseSection {
+    padding: 2rem;
+    text-align: center;
+    background-color: #ffffff; /* Optional: background color for the section */
+  }
+  
+  .textContainer {
+    margin: 0 auto;
+    max-width: 800px; /* Optional: to control the width of the text container */
+  }
+  
+  .heading {
+    font-size: 48px;
+    line-height: 1.2em;
+    color: #1e1f36;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  
+  .heading::after {
+    content: "";
+    display: block;
+    width: 50px; /* Width of the line */
+    height: 3px; /* Thickness of the line */
+    background-color: red; /* Line color */
+    margin: 8px auto 0; /* Center the line horizontally and add spacing */
+  }
+  
+  .description {
+    font-size: 16px;
+    line-height: 28px;
+    color: #888888;
+    margin-top: 30px;
+    font-weight: 400;
+  }
+  

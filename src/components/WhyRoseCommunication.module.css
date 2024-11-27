@@ -1,0 +1,64 @@
+.whyRoseSection {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  .imageContainer {
+    flex-basis: 50%;
+    position: relative;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .textContainer {
+    flex-basis: 50%;
+    position: relative;
+  }
+  
+  .heading {
+    font-size: 48px;
+    line-height: 1.2em;
+    color: #1e1f36;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  .heading::after {
+    content: "";
+    display: block;
+    width: 50px; /* Adjust the width of the line as needed */
+    height: 3px; /* Line thickness */
+    background-color: red; /* Line color */
+    margin: 8px auto 0; 
+  }
+  
+  .description {
+    font-size: 16px;
+    line-height: 28px;
+    color: #888888;
+    margin-top: 30px;
+    font-weight: 400;
+    position: relative;
+  }
+  
+  @media (max-width: 768px) {
+    .whyRoseSection {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .imageContainer,
+    .textContainer {
+      flex-basis: 100%;
+    }
+  }
+  
