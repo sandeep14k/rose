@@ -43,9 +43,10 @@
 
 .stickerimg {
   width: 100%;
-  height: 120px;
+  height: 100%;
   cursor: pointer;
-  object-fit: fill;
+  object-fit: contain; /* Ensures the image covers the box fully */
+  border-radius: 10px
 }
 
 .stickerdescription {

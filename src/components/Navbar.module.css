@@ -1,13 +1,25 @@
+* {
+  box-sizing: border-box;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.8); /* White transparent */
   color: rgb(24, 24, 24);
   position: fixed;
   z-index: 1;
-  width: 95%;
+  width: 100%;
+  height: 12vh; /* Default height */
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px); /* For smooth transparency effect */
+}
+
+.scrolled {
+  background-color: #ffffff; /* Opaque white */
+  height: 8vh; /* Reduced height */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for separation */
 }
 
 .heading {
@@ -31,7 +43,8 @@
   text-decoration: none;
   font-size: 1.2rem;
 }
-.anchor:hover{
+
+.anchor:hover {
   color: rgb(245, 43, 43);
 }
 
@@ -52,6 +65,9 @@
     height: calc(100vh - 4rem);
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
+  }
+  .anchor{
+    color: white;
   }
 
   .mobile {
