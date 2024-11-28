@@ -12,13 +12,9 @@ const WhyRoseCommunication = () => {
         /> */}
       </div>
       <div className={styles.textContainer}>
-        <h1 className={styles.heading}>Why Rose Communication</h1>
+        <h1 className={styles.heading}>Why Choose A2Z Marketing?</h1>
         <p className={styles.description}>
-          Over two decades of experience in Advertising & Events sector. Have
-          handled over 2000 projects for Indian & Global clients. Professional
-          approach for every project undertaken. Team of professionals to take
-          care of all your Advertising needs. Have handled projects all over
-          India.
+        A2Z Marketing is your go-to partner for innovative and impactful marketing solutions. We pride ourselves on delivering exceptional results for every project, with a focus on professionalism, creativity, and attention to detail. Our approach is tailored to meet your unique goals, ensuring that your brand stands out in a competitive market. From strategy to execution, we are dedicated to transforming your vision into a successful campaign that resonates with your audience.
         </p>
       </div>
       
