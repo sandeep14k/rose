@@ -15,10 +15,10 @@ const divStyle = {
 
 const slideImages = [
   {
-    url: '/rose/image/img-slide1.jpg',
+    url: '/image/img-slide1.jpg',
   },
   {
-    url: '/rose/image/img-slide2.jpg',
+    url: '/image/img-slide2.jpg',
   },
 ];
 

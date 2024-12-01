@@ -3,47 +3,47 @@ import styles from "./Hero.module.css";
 const Hero = () => {
   const stickers = [
     {
-      img: "../rose/image/img1.jpg",
+      img: "../image/img1.jpg",
       description: "Delicious Meals",
     },
     {
-      img: "../rose/image/img2.jpg",
+      img: "../image/img2.jpg",
       description: "Fresh Ingredients",
     },
     {
-      img: "../rose/image/img3.jpg",
+      img: "../image/img3.jpg",
       description: "Cozy Ambience",
     },
     {
-      img: "../rose/image/img4.jpg",
+      img: "../image/img4.jpg",
       description: "Exceptional Service",
     },
     {
-      img: "../rose/image/img5.jpg",
+      img: "../image/img5.jpg",
       description: "Exceptional Service",
     },
     {
-      img: "../rose/image/img6.jpg",
+      img: "../image/img6.jpg",
       description: "Exceptional Service",
     },
     {
-      img: "../rose/image/img7.jpg",
+      img: "../image/img7.jpg",
       description: "Exceptional Service",
     },
     {
-      img: "../rose/image/img8.jpg",
+      img: "../image/img8.jpg",
       description: "Exceptional Service",
     },
     {
-      img: "../rose/image/img9.jpg",
+      img: "../image/img9.jpg",
       description: "Exceptional Service",
     },
     {
-      img: "../rose/image/img10.jpg",
+      img: "../image/img10.jpg",
       description: "Exceptional Service",
     },
     {
-      img: "../rose/image/img11.jpg",
+      img: "../image/img11.jpg",
       description: "Exceptional Service",
     },
   ];
