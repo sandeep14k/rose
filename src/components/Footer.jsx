@@ -55,7 +55,7 @@ const Footer = () => {
         </a>
       </div>
       <p className={styles.copyright}>
-        &copy; {currentYear} A2Z ADERTISING. All rights reserved.
+        &copy; {currentYear} A2Z Marketing. All rights reserved.
       </p>
     </footer>
   );

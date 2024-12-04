@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .slide-container {
+    height: 90vh; /* Adjust height for mobile screens */
+  }
+
+  .slide-container div {
+    margin: 0 auto; /* Center the content */
+  }
+
+  .indicator {
+    margin-bottom: 10px; /* Reduce space between image and dots */
+  }
+}

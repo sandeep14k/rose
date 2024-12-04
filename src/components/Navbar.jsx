@@ -33,27 +33,27 @@ const Navbar = () => {
       </div>
       <ul className={`${styles.navlinks} ${isMobile ? styles.mobile : ""}`}>
         <li className={styles.list}>
-          <a className={styles.anchor} href="#">
+          <a className={styles.anchor} href="#home">
             Home
           </a>
         </li>
         <li className={styles.list}>
-          <a className={styles.anchor} href="#">
+          <a className={styles.anchor} href="#about">
             About
           </a>
         </li>
         <li className={styles.list}>
-          <a className={styles.anchor} href="#">
+          <a className={styles.anchor} href="#services">
             Services
           </a>
         </li>
         <li className={styles.list}>
-          <a className={styles.anchor} href="#">
+          <a className={styles.anchor} href="#portfolio">
             Portfolio
           </a>
         </li>
         <li className={styles.list}>
-          <a className={styles.anchor} href="#">
+          <a className={styles.anchor} href="#contact">
             Contact
           </a>
         </li>
