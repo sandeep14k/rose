@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Slideshow from "./components/image-slider";
 import WhyRoseCommunication from "./components/why";
 import OurExpertise from "./components/experties";
+import Service from "./components/service";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Slideshow></Slideshow>
       <WhyRoseCommunication></WhyRoseCommunication>
       <OurExpertise></OurExpertise>
+      <Service/>
       <Hero></Hero>
       <Contact></Contact>
       <Footer></Footer>
